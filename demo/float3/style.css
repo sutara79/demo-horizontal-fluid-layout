@@ -1,0 +1,19 @@
+.container:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.item {
+  border: 1px solid #999;
+  float: left;
+  width: 100px;
+  margin-bottom: 1em;
+}
+.blue {
+  background-color: royalblue;
+  height: 100px;
+}
+.purple {
+  background-color: blueviolet;
+  height: 200px;
+}
