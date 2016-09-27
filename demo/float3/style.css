@@ -5,9 +5,17 @@
 }
 .item {
   border: 1px solid #999;
+  box-sizing: border-box;
   float: left;
-  width: 100px;
   margin-bottom: 1em;
+  max-width: 102px;
+  width: 20%;
+}
+@media screen and (max-width: 320px) {
+  .item {
+    float: none;
+    width: auto;
+  }
 }
 .blue {
   background-color: royalblue;
