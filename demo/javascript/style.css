@@ -1,14 +1,14 @@
-.container:after {
+.container1:after,
+.container2:after {
   clear: both;
   content: '';
   display: block;
 }
 .item {
-  border: 1px solid #999;
   float: left;
-  width: 100px;
-  height: 100px;
-  margin-bottom: 1em;
+  width: 102px;
+  padding: 8px;
+  border: 1px solid #999;
 }
 .blue {
   background-color: royalblue;
